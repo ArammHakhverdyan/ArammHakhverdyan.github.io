@@ -1,1 +1,0 @@
-# ArammHakhverdyan.github.io
