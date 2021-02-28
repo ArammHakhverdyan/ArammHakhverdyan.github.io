@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
 #parent1 {
     display: grid;
     grid-template-columns: 35% auto ;  
-    grid-template-rows: 657px;
+    height: 100%;
     background-image: url("/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -67,76 +71,31 @@
 #link:hover {
     opacity: 0.2;
 }
-@media not screen and (min-width: 800px) {
-    #myImg {
-        top: 12%;
-        left: 30%;
-        transform: scale(2.5);
-        transition: transform .9s;
-    }
-    .font:hover {
-        transform: scale(2);
-        color: rgb(218, 64, 64);
-        font-family: cursive;
-        font-size: 1.7vw;
-        padding-right: 25%;
-        transition: transform .5s;
-        text-align: center;
-
-    }
-    #name {
-    position: absolute;
-    top: 1%;
-    left: 10%;
-    font-size: 3vw;
-    font-family: monospace;
-    z-index: 999;
-    }
-    #h2 {
-        position: absolute;
-        font-family: monospace;
-        font-size: 4vw;
-        left: 5%;
-        top: 3%;
-    }
-    #link:hover {
-        opacity: 0.2;
-    }
-    #language:hover {
-        transform: scale(2);
-        color: rgb(218, 64, 64);
-        font-family: cursive;
-        font-size: 1.7vw;
-        padding-right: 25%;
-        transition: transform .5s;
-    }
-    #skills:hover {
-        transform: scale(2);
-        color: rgb(218, 64, 64);
-        font-family: cursive;
-        font-size: 1.7vw;
-        padding-right: 25%;
-        transition: transform .5s;
-    }
-}
 #addressDiv {
-    top: 35%;
+    top: 45%;
     align-items: center
 }
 #phoneDiv {
-    top: 50%;
+    top: 60%;
     align-items: center
 }
 #gmailDiv{
-    top: 65%;
+    top: 75%;
     align-items: center
 }
-
+#jobDiv {
+    top: 90%;
+    align-items: center
+}
+#toDo {
+    color: white
+}
+#carousel {
+    color: white
+}
 #child2 {
     position: relative;
-    
 }
-
 #dayDiv {
     top: 12%;
     align-items: center
@@ -161,13 +120,127 @@
     top: 60%;
     align-items: center
 }
-
 #skillsDiv {
     top: 75%;
     align-items: center
 }
-
 #armyDiv {
     top: 93%;
     align-items: center
 }
+@media not screen and (min-width: 800px) {
+    #parent1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 100%;
+        background-image: url("/background.jpg");
+        background-repeat: no-repeat;
+        
+    }
+    #myImg {
+        left: 8%;
+        transform: scale(0.9);
+        transition: transform .9s;
+       
+    }
+    .font{
+        font-size: 15px;
+    }
+    #language {
+        font-size: 15px;
+    }
+    #skills {
+        font-size: 15px;
+    }
+    /*.font:hover {
+        transform: scale(2);
+        color: rgb(218, 64, 64);
+        font-family: cursive;
+        font-size: 1.7vw;
+        padding-right: 25%;
+        transition: transform .5s;
+        text-align: center;
+
+    }*/
+    #name {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    font-size: 25px;
+    font-family: monospace;
+    z-index: 999;
+    }
+    
+    #link:hover {
+        opacity: 0.2;
+    }
+    /*#language:hover {
+        transform: scale(2);
+        color: rgb(218, 64, 64);
+        font-family: cursive;
+        font-size: 1.7vw;
+        padding-right: 25%;
+        transition: transform .5s;
+    }
+    #skills:hover {
+        transform: scale(2);
+        color: rgb(218, 64, 64);
+        font-family: cursive;
+        font-size: 1.7vw;
+        padding-right: 25%;
+        transition: transform .5s;
+    }*/
+    #addressDiv {
+        top: 75%;
+        align-items: center
+    }
+    #phoneDiv {
+        top: 100%;
+        align-items: center
+    }
+    #gmailDiv{
+        top: 125%;
+        align-items: center
+    }
+    #jobDiv {
+        top: 150%;
+        align-items: center
+    }
+    #h2 {
+        top: 105%;
+        font-size: 25px
+    }
+    #dayDiv {
+        top: 125%;
+        align-items: center
+    }
+    #schoolDiv {
+        top: 145%;
+        align-items: center
+    }
+    #univerDiv {
+        top: 165%;
+        align-items: center
+    }
+    #coursesDiv {
+        top: 185%;
+        align-items: center;
+    }
+    #workDiv {
+        top: 205%;
+        align-items: center
+    }
+    #languageDiv {
+        top: 225%;
+        align-items: center
+    }
+    #skillsDiv {
+        top: 250%;
+        align-items: center
+    }
+    #armyDiv {
+        top: 300%;
+        align-items: center
+    }
+}
+
