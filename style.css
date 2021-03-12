@@ -40,7 +40,8 @@ html, body {
     top: 2%;
     left: 10%;
     font-size: 2.3vw;
-    font-family: monospace
+    font-family: monospace;
+    color: white;
 }
 #myImg {
     position: absolute;
@@ -55,6 +56,7 @@ html, body {
     position: absolute;
     font-size: 2.3vw;
     font-family: monospace;
+    color: white;
     left: 2%;
     top: 3%;
 }
@@ -68,8 +70,11 @@ html, body {
     font-family: cursive;
     font-size: 1.3vw;
 }
-#link:hover {
-    opacity: 0.2;
+#euLink {
+    color: black
+}
+#euLink:hover {
+    opacity: 0.5
 }
 #addressDiv {
     top: 45%;
@@ -87,11 +92,23 @@ html, body {
     top: 90%;
     align-items: center
 }
+#toDo:hover {
+    opacity: 0.5
+}
 #toDo {
-    color: gray
+    color: black
+}
+#carousel:hover {
+    opacity: 0.5
 }
 #carousel {
-    color: gray
+    color: black
+}
+#tetris:hover {
+    opacity: 0.5
+}
+#tetris {
+    color: black
 }
 #child2 {
     position: relative;
@@ -132,9 +149,9 @@ html, body {
     #parent1 {
         display: grid;
         grid-template-columns: auto;
-        height: 100%;
-        background-image: url("./img/background.jpg");
-        background-repeat: no-repeat;
+        height: 300%;
+        background-image: url("./background.jpg");
+        background-repeat: repeat-x;
         
     }
     #myImg {
@@ -171,7 +188,7 @@ html, body {
     z-index: 999;
     }
     
-    #link:hover {
+    #euLink:hover {
         opacity: 0.2;
     }
     /*#language:hover {
@@ -191,55 +208,55 @@ html, body {
         transition: transform .5s;
     }*/
     #addressDiv {
-        top: 75%;
+        top: 30%;
         align-items: center
     }
     #phoneDiv {
-        top: 100%;
+        top: 40%;
         align-items: center
     }
     #gmailDiv{
-        top: 125%;
+        top: 50%;
         align-items: center
     }
     #jobDiv {
-        top: 150%;
+        top: 60%;
         align-items: center
     }
     #h2 {
-        top: 105%;
+        top: -25%;
         font-size: 25px
     }
     #dayDiv {
-        top: 125%;
+        top: -15%;
         align-items: center
     }
     #schoolDiv {
-        top: 145%;
+        top: -5%;
         align-items: center
     }
     #univerDiv {
-        top: 165%;
+        top: 5%;
         align-items: center
     }
     #coursesDiv {
-        top: 185%;
+        top: 15%;
         align-items: center;
     }
     #workDiv {
-        top: 205%;
+        top: 25%;
         align-items: center
     }
     #languageDiv {
-        top: 225%;
+        top: 35%;
         align-items: center
     }
     #skillsDiv {
-        top: 250%;
+        top: 45%;
         align-items: center
     }
     #armyDiv {
-        top: 300%;
+        top: 65%;
         align-items: center
     }
 }
