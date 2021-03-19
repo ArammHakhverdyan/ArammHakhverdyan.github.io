@@ -46,7 +46,7 @@ html, body {
 #myImg {
     position: absolute;
     border-radius: 30%;
-    width: 25%;
+    width: 30%;
     top: 10%;
     left: 11%;
     transform: scale(1);
@@ -156,7 +156,7 @@ html, body {
     }
     #myImg {
         left: 8%;
-        transform: scale(0.9);
+        transform: scale(0.7);
         transition: transform .9s;
        
     }
