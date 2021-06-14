@@ -110,6 +110,18 @@ html, body {
 #tetris {
     color: black
 }
+#demo:hover {
+  opacity: 0.5
+}
+#demo {
+  color: black
+}
+#github:hover {
+  opacity: 0.5
+}
+#github {
+  color: black
+}
 #child2 {
     position: relative;
 }
